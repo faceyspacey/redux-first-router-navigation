@@ -2,8 +2,11 @@
 // import { NavigationActions } from 'react-navigation'
 // const addNav = require('react-navigation/src/addNavigationHelpers')
 
-const NavigationActions = require('../../ReduxFirstRouterBoilerplateNative/node_modules/react-navigation/src/NavigationActions').default
-const addNav = require('../../ReduxFirstRouterBoilerplateNative/node_modules/react-navigation/src/addNavigationHelpers')
+// const NavigationActions = require('../../ReduxFirstRouterBoilerplateNative/node_modules/react-navigation/src/NavigationActions').default
+// const addNav = require('../../ReduxFirstRouterBoilerplateNative/node_modules/react-navigation/src/addNavigationHelpers')
+
+const NavigationActions = require('react-navigation/src/NavigationActions').default
+const addNav = require('react-navigation/src/addNavigationHelpers')
 
 const addNavigationHelpers = addNav.default
 
