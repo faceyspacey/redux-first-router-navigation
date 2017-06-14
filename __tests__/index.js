@@ -7,3 +7,7 @@ test('first', () => {
 
   expect(config).toMatchSnapshot()
 })
+
+test('second', () => {
+  expect(1).toEqual(1)
+})
