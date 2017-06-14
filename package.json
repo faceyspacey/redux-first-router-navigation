@@ -48,7 +48,7 @@
     "lint-staged": "^3.6.1",
     "prettier": "^1.4.4",
     "react-navigation": "^1.0.0-beta.11",
-    "redux-first-router": "^1.3.3",
+    "redux-first-router": "^1.4.1",
     "rimraf": "^2.5.4",
     "semantic-release": "^6.3.6",
     "travis-github-status": "^1.4.0"

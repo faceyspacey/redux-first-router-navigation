@@ -1,13 +1,15 @@
 import navigation from '../src'
 
-test('first', () => {
-  const config = navigation({
-    stateKey: { im: 'a navigator' }
+describe('placeholder', () => {
+  test('first', () => {
+    const config = navigation({
+      stateKey: { im: 'a navigator' }
+    })
+
+    expect(config).toMatchSnapshot()
   })
 
-  expect(config).toMatchSnapshot()
-})
-
-test('second', () => {
-  expect(1).toEqual(1)
+  test('second', () => {
+    expect(1).toEqual(1)
+  })
 })
