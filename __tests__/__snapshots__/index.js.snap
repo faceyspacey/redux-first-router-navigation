@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`first 1`] = `
+Object {
+  "actionToNavigation": [Function],
+  "navigationToAction": [Function],
+  "navigators": Object {
+    "stateKey": Object {
+      "im": "a navigator",
+    },
+  },
+  "patchNavigators": [Function],
+}
+`;
